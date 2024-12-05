@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 169fbfa87b6c62742bf2988495bccdc1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - musicVolumeSlider: {fileID: 8013361800318287029, guid: 65bb1383f14601248983968ab83b3db5,
+      type: 3}
+  - sfxVolumeSlider: {fileID: 8343057146393277419, guid: 098f04037391a5d42863a93a61374d4f,
+      type: 3}
+  - muteMusicToggle: {fileID: 1811985986046351078, guid: 0d248aae5fa5ac249b616fe584ceefd5,
+      type: 3}
+  - musicSource: {fileID: 7056194834329467604, guid: d6a46416b8c94cf42953809a53ec7429,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

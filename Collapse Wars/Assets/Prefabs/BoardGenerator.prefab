@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3617447107091464420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8110711394106588949}
+  - component: {fileID: 5618125988413889064}
+  m_Layer: 6
+  m_Name: BoardGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8110711394106588949
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3617447107091464420}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4, y: 4, z: 93}
+  m_LocalScale: {x: 0.31343228, y: 0.31343228, z: 0.31343228}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5618125988413889064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3617447107091464420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1cfe990ce7c3a544a1472730cfa3878, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rows: 16
+  columns: 8
+  tilePrefab: {fileID: 4796563562744726449, guid: 7ab4d1cb59de1264e8ba2bacdeafb223,
+    type: 3}
+  tileSprites:
+  - {fileID: 21300000, guid: 5938bd5d018267a45aa0962f00fbabe7, type: 3}
+  - {fileID: 21300000, guid: 0e00e22c2302c4c429576e0e04ff4834, type: 3}
+  - {fileID: 21300000, guid: 66eb32c73d649cd4f9fbd5f3e032498f, type: 3}
+  - {fileID: 21300000, guid: b52e3d5233afc6241a953a68fa449a2d, type: 3}
+  - {fileID: 21300000, guid: 0a42d22be67a37d4fa5bfc7470b1eb11, type: 3}
+  - {fileID: 21300000, guid: 2b90e3c7527f12b459ab61df70c75928, type: 3}
+  minNewTiles: 2
+  scoreManager: {fileID: 2991062800191033775, guid: 54b85e43809e4b64eafe68fd0d7d8878,
+    type: 3}
+  ShuffleText: {fileID: 0}
+  destroyTileSound: {fileID: 8300000, guid: 597e4e8552e87af4889975c7769d17b2, type: 3}
